@@ -1,0 +1,14 @@
+{
+  "name": "ad-relatorios-br",
+  "owner": { "name": "Escritório AD" },
+  "description": "Marketplace dos relatórios do hub contábil AD (somente leitura).",
+  "plugins": [
+    {
+      "name": "ad-relatorios",
+      "source": "./ad-relatorios",
+      "description": "Relatórios read-only do AD — raio-x do sistema, status de boletos, reajuste de mensalidades e organização de lançamentos, consultando o Supabase via MCP.",
+      "version": "1.0.0",
+      "author": { "name": "Escritório AD" }
+    }
+  ]
+}

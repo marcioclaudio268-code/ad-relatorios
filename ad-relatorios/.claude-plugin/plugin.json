@@ -1,0 +1,7 @@
+{
+  "name": "ad-relatorios",
+  "version": "1.0.0",
+  "description": "Relatórios do escritório (AD): raio-x do sistema, status de boletos, reajuste de mensalidades e organização de lançamentos — somente leitura, consultando o banco do AD via MCP do Supabase.",
+  "author": { "name": "Escritório AD" },
+  "keywords": ["contabilidade", "relatorios", "financeiro", "fiscal", "ad"]
+}

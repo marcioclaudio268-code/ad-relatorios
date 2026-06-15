@@ -31,14 +31,12 @@ setx SUPABASE_ACCESS_TOKEN "sbp_cole_o_token_aqui"
 ```
 Feche e reabra o terminal/Claude Code depois do `setx` (ele só vale em sessões novas).
 
-### 3) Instalar o plugin
-Copie a pasta **`ad-marketplace`** para a máquina (ex.: `C:\AD\ad-marketplace`). No Claude Code:
+### 3) Instalar o plugin (do GitHub — repo público, não precisa logar no GitHub)
+No Claude Code (na máquina do chefe):
 ```
-/plugin marketplace add C:\AD\ad-marketplace
+/plugin marketplace add marcioclaudio268-code/ad-relatorios
 /plugin install ad-relatorios@ad-relatorios-br
 ```
-(ou, se publicar num repositório GitHub: `/plugin marketplace add SEU-USUARIO/ad-relatorios`)
-
 Reabra o Claude Code para carregar o MCP.
 
 ---
@@ -63,4 +61,5 @@ ou em linguagem natural: *"me dá um relatório do sistema hoje"*. Outros:
   commitado nem incluído no pacote. Para revogar o acesso, basta apagar o token no Supabase.
 
 ## Atualizar
-Substitua a pasta `ad-marketplace` (ou dê `git pull` no repo) e rode `/plugin update ad-relatorios`.
+Repo: https://github.com/marcioclaudio268-code/ad-relatorios — faça commit/push de uma nova versão e, na
+máquina do chefe, rode `/plugin update ad-relatorios`.
